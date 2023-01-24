@@ -1,3 +1,35 @@
+/* main page background color */
 body {
-    background-color: whitesmoke
+    background-color: lightcyan;
  }
+/* navbars background color */
+ .bg-light {
+    background-color: darkcyan !important;
+ }
+
+/*Jumbotron styles*/
+.jumbotron {
+    height: calc(90vh - 10px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* card container styles */
+
+div .card {
+    outline: black !important;
+    outline-width: 2px !important;
+    outline-style: solid !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: darkcyan;
+    border-color: black;
+}
+
+.btn-primary:hover {
+    background-color: darkcyan;
+    box-shadow: 15px 15px 50px 10px grey;
+}
+

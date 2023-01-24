@@ -9,12 +9,14 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!--Navigation-->
-    <!--need to add fixed top-->
+    <!--added fixed top-->
     <nav class="navbar fixed-top navbar-light bg-light">
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -44,12 +46,15 @@
         </div>
     </nav>
     <!--Hero section-->
-    <div class="jumbotron">
+    <div class="jumbotron bg-cover"
+        style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(./images/banner-web-development.png)">
         <h1 class="display-4">Welcome!</h1>
-        <p class="lead">This is a simple portfolio about me, my work and skills I hope to achieve in this bootcamp.</p>
+        <img src="images/avatar.png" alt="image of web developer">
+        <p class="lead">This is a simple portfolio about me, my work and skills I hope to achieve in this bootcamp. I am
+            new to this industry and very interested.</p>
         <hr class="my-4">
         <p></p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">More about me</a>
+        <a class="btn btn-primary btn-lg" href="#about-me" role="button">More about me</a>
     </div>
 
     <!--Work section-->
@@ -60,9 +65,10 @@
                     <img src="images/pre-work.png" class="card-img-top" alt="a cheat sheet about the bootcamp">
                     <div class="card-body">
                         <h5 class="card-title">Pre-work</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Check it out!</a>
+                        <p class="card-text">This was an introduction, so it focused mainly on being familiar with the
+                            system.</p>
+                        <a href="https://darylcata.github.io/prework-study-guide/" class="btn btn-primary">Check it
+                            out!</a>
                     </div>
                 </div>
             </div>
@@ -72,9 +78,10 @@
                     <img src="images/week-1.png" class="card-img-top" alt="a picture of a webpage to practice html">
                     <div class="card-body">
                         <h5 class="card-title">Week 1 Challenge</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Check it out!</a>
+                        <p class="card-text">This challenge shows us the application of CSS and targeting the elements
+                            of HTML.</p>
+                        <a href="https://darylcata.github.io/Week-1-challenge/" class="btn btn-primary">Check it
+                            out!</a>
                     </div>
                 </div>
             </div>
@@ -84,70 +91,91 @@
                     <img src="images/week-2.png" class="card-img-top" alt="A webpage picture of my portfolio">
                     <div class="card-body">
                         <h5 class="card-title">Week 2 Challenge</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Check it out!</a>
+                        <hr>
+                        </hr>
+                        <p class="card-text">This my portfolio that started from a blank sheet.</p>
+                        <a href="https://darylcata.github.io/Daryls-portfolio/" class="btn btn-primary">Check it
+                            out!</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <!--Skills section-->
-        <div class="row">
-            <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-                <div class="card" id="#" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">My skills</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                    </div>
-                </div>
-            </div>
+    <br>
+    <hr>
+    <br>
 
-            <!--About Me/Contact section-->
-            <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-                <div class="card border-secondary mb-3" id="about-me" style="max-width: 18rem;">
-                    <div class="card-header">About-me</div>
-                    <div class="card-body text-secondary">
-                        <h5 class="card-title">Secondary card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                    </div>
-                </div>
-                <!--Contact me-->
-                <div class="cardContainer col-sm-12 col-md-4 col-lg-4">
-                    <div class="card" id="contact-me" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Contact Me</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-                            <a href="tel:+447572295418" class="card-link">+447572295418</a>
-                            <a href="mailto: catalunasiegfried@gmail.com"
-                                class="card-link">catalunasiegfried@gmail.com</a>
-                            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                                class="card-link">LinkedIn</a>
-                        </div>
-                    </div>
+    <div class="row">
+        <!--Skills section-->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" id="skills">
+                <div class="card-body">
+                    <h5 class="card-title">My Skills</h5>
+                    <p class="card-text">As of now, I have only started coding, I am going through the bootcamp and am
+                        learning
+                        as much as I can, I am familiar with:
+                    <ul>
+                        <li>Creating basic HTML webpage</li>
+                        <li>How CSS works and targets the elements in HTML</li>
+                        <li>Use bootstrap as a source to make the page more user friendy</li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
+        <!--About Me-->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" id="about-me">
+                <div class="card-body">
+                    <h5 class="card-title">About Me</h5>
+                    <p>------------------------------------------</p>
+                    <p class="card-text"> Born and raised in the Philippines I grew up with 5 siblings and me being
+                        third from the eldest. I am now
+                        happily married with two children. I grew up being familiar with computer through gaming and
+                        though I graduated
+                        in Marine Engineering, I am very interested in software development.
 
-        <!--Footer section-->
+                        Currently, I work as a Ward Administrator at a hospital but I hope to work in the technology
+                        industry and pursue
+                        my intersts
+                        through this bootcamp.
 
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-            crossorigin="anonymous"></script>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--Contact Me-->
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+            <div class="card" id="contact-me">
+                <div class="card-body">
+                    <h5 class="card-title">Contact Me</h5>
+                    <p class="card-text">Here are my contact information if you want to reach out</p>
+                    <a href="tel:+447572295418" class="btn btn-primary ">+447572295418</a>
+                    <p> </p>
+                    <a href="mailto: catalunasiegfried@gmail.com"
+                        class="btn btn-primary">catalunasiegfried@gmail.com</a>
+                    <p> </p>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                        class="btn btn-primary">Linked In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!--Footer section-->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
