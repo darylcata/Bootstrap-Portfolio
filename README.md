@@ -20,7 +20,7 @@ The following animation shows the web application's appearance and functionality
 
 GITHUB PAGE: https://github.com/darylcata/Bootstrap-Portfolio
 
-LIVE PAGE: 
+LIVE PAGE: https://darylcata.github.io/Bootstrap-Portfolio/
 
 ## License
 
